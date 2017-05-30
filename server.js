@@ -7,7 +7,7 @@ var path = require('path');
 
 // Listen
 app.listen(7501, function() {
-	console.log('server listening on port 7500');
+	console.log('server listening on port 7501');
 });
 
 // Users
