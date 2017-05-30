@@ -7,7 +7,7 @@ var path = require('path');
 
 // Listen
 app.listen(7501, function() {
-	console.log('server listening on port 7501');
+	// console.log('server listening on port 7501');
 });
 
 // Users
@@ -18,3 +18,12 @@ app.get('/', function(req, res) {
 	console.log('Base URL hit');
 	res.sendFile(path.resolve('views/index.html'));
 });
+
+// Recieve math request
+app.post('/calculate', function(req, res) {
+	console.log();
+});
+
+
+
+// Send answer back
